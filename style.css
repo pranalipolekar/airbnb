@@ -1,0 +1,304 @@
+/* Applied to page */
+body{
+    margin: 0px;
+    /* background: black;  */
+    color: white;
+    /* background: linear-gradient(to right, #8e9eab, #eef2f3); */
+
+}
+#main-container{
+    background:black;
+    padding-bottom: 2rem;
+}
+/* ******* Style to Nav BAR *************** */
+/* nav{
+    background-color: black;
+} */
+/* nav{
+    margin-top: 1em;
+     background: black; 
+} */
+.nav-header{
+    display: flex;
+    justify-content: space-around;
+    height: 8vh;
+    font-size: 20px;
+    text-align: center;
+}
+#links{
+    display: flex;
+    width: 32%;
+    justify-content: space-between;
+    padding-top: 2vh;
+    /* text-decoration: none; */
+}
+#logo{
+    padding-top: 2vh;
+}
+#profile{
+    padding-top: 2vh;
+}
+#links a{
+    text-decoration: none;
+    color: white;
+}
+span{
+    padding: 4px;
+}
+.user-profile{
+    background-color: white;
+    /* display: inline-block; */
+    width: 60px;
+    height: 25px;
+    border-radius: 30px;
+}
+.bars-icon{
+    font-weight: 600;
+    font-size: medium;
+    color: #404040;;
+}
+.user-icon{
+    color: #717171;
+    padding-left: 8px;
+    font-size: larger;
+}
+
+@media only screen and (max-width:768px) {
+    .hide-on{
+        display: none;
+        padding-top: 2vh;
+    }
+    #links {
+        width: 72%;
+        justify-content: space-around;
+        padding-top: 2vh;
+    }
+   
+}
+@media only screen and (max-width: 1079px) {
+    /* For mobile phones: */
+    .nav-header{
+        height: auto;
+    }
+  }
+
+  /********applied on search bar of header*********/
+  .search-bar {
+    background-color: white;
+    height: 60px;
+    width: 60%;
+    margin: auto;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.search-option{
+    height: 60%;
+    width: 15%;
+    color: black;
+    border-right: 2px solid gray;
+   
+}
+#search-icon-box{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #FD365C;
+    color: white;
+    border-radius: 2rem;
+    text-align: center;
+    margin-top: -4px;
+    /* margin-right: -16px; */
+}
+.fa-search{
+    /* vertical-align: -12px; */
+    margin-top: 32% ;
+}
+#guests-option{
+    display: flex;
+    justify-content: space-between;
+    border: none;
+}
+/***** Middle Section*****/
+#main-screen{
+    background-image: url(./images/airbnbBack1.webp);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    height: 80vh;
+    width: 88%;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke;
+    margin: auto;
+    margin-top: 2rem;
+    padding-bottom: 3em;
+}
+#btn-info{
+    display : flex;
+    flex-direction: column;
+    /* margin-bottom: 2em; */
+    align-items: center;
+}
+#btn{
+    background-color: white;
+ text-decoration: none;
+ border: none;
+ color: #66186c;
+ width: 10em;
+ height: 4em;
+ border-radius: 2em;
+ font-size: 1em;
+ font-weight: bolder;
+ cursor: pointer;
+}
+#btn-txt{
+    font-size: larger;
+}
+#back-black{
+    background: black;
+    height: 8vh;
+}
+/***** four cards *****/
+.middle-section{
+    color:black;
+    /* background-color: white; */
+    color: black;
+    margin: 3rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+/* .card{
+   
+    border-radius: 2em;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 1rem 1rem 0rem 0rem ;
+} */
+#card-container .card{
+    border: none;
+    width: 16rem;
+}
+.card-border img{
+    border-radius: 1rem 1rem 0rem 0rem ;
+}
+.row-align{
+    margin-left: 2rem;
+}
+#card-container{
+    color: black;
+}
+.card-info1{
+    background: #D93B30;
+    border-radius: 0rem 0rem 1rem 1rem;
+}
+.card-info2{
+    background: #CC2D4A;
+    border-radius: 0rem 0rem 1rem 1rem;
+}
+.card-info3{
+    background: #BC1A6E;
+    border-radius: 0rem 0rem 1rem 1rem;
+}
+.card-info4{
+    background: #DE3151;
+    border-radius: 0rem 0rem 1rem 1rem;
+}
+.card-text{
+    color: white;
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 0;
+}
+.card-subtext{
+    color: white;
+}
+
+/***** Card image Overlay *****/
+.card-image{
+    top:2rem;
+    left:2rem;
+}
+.card-image p{
+    font-size: 41px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    line-height: 48px;
+}
+#img-overlay-btn{
+    color: #000;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    margin-top: 2rem;
+    font-weight: 600;
+}
+.end-section{
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: 0px;
+    margin-top:4rem;
+}
+.back-img{
+    background-image: url(./images/last-img.webp);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    height: 80vh;
+}
+
+.last-img-card{
+    border-radius: 0em;
+}
+.card-txt-info{
+    margin: 2rem;
+    font-size: 4rem;
+    line-height: 4.3rem;
+}
+.end-btn{
+    margin-left: 2rem;
+    margin-top: 8rem;
+    font-weight: 600;
+}
+
+/*****Footer SEction *****/
+.futer{
+        color: #000;
+        background-color: #F7F7F7;
+    }
+.futer-row{
+    margin: 3rem;
+    }
+.link-head{
+        margin-top: 2rem;
+       font-weight: 600;
+    }
+.link-section{
+        line-height: 2rem;
+    }
+.link a, .privacy a{
+    text-decoration: none; 
+    color: rgba(46, 46, 46, 0.918);
+}
+.link a:hover,.privacyNmore a:hover{
+    text-decoration: underline;
+}
+.privacy i{
+    color: #000;
+}
+.privacy span{
+    vertical-align: text-bottom;
+}
+.symbol i{
+    color: black;
+}
+.symbol a{
+    margin-right: 3%;
+    margin-left: 3%;
+}
+.symbol span{
+    text-decoration: underline;
+}
